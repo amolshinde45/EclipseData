@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.408 s <<< FAILURE! - in TestSuite
+verifyUser(test.test.API_Test)  Time elapsed: 4.476 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <429>.
+
+	at test.test.API_Test.verifyUser(API_Test.java:26)
+
